@@ -44,15 +44,6 @@
         </nav>
     </header>
 
-    <script>
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-    </script>
-
     <section class="relative text-center py-28 px-6 overflow-hidden">
         <!-- Background image with blur -->
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -64,10 +55,10 @@
         <!-- Content stays sharp and readable -->
         <div class="relative z-10">
             <h2 class="text-5xl font-extrabold mb-6 animate-fade-in text-white">
-                Web Developer & <span class="text-indigo-400">Japanese Enthusiast</span>
+                FrontEnd Developer & <span class="text-indigo-400">Japanese Enthusiast</span>
             </h2>
             <p class="text-2xl max-w-3xl mx-auto mb-10 text-gray-200 animate-fade-in font-semibold">
-                Expertise in web development, cloud solutions, ServiceNow ITSM, AWS, AI Tools and bridging
+                Expertise in front end development, cloud solutions, ServiceNow ITSM, AWS, AI Tools and bridging
                 technology with Japanese language skills.
             </p>
             <a href="ROHIT PATIL ロヒット RESUME .pdf" download
@@ -78,7 +69,7 @@
     </section>
 
 
-    <!-- About / Jikoshoukai Bilingual Section (N3 Japanese) -->
+    <!-- About Section -->
     <section id="about-bilingual" class="py-20 px-6 bg-gray-800">
 
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
@@ -91,7 +82,7 @@
                 <div class="flex-1 bg-gray-900 border border-gray-700 rounded-2xl p-10 shadow-lg 
        transition transform hover:scale-105 hover:shadow-2xl hover:border-indigo-400">
                     <p class="leading-loose text-gray-300 text-lg mb-6">
-                        Hello, I’m <span class="font-semibold text-indigo-300">Rohit Patil</span>, a Computer Science
+                        Hello, I'm <span class="font-semibold text-indigo-300">Rohit Patil</span>, a Computer Science
                         graduate passionate about integrating technology with language.
                     </p>
                     <p class="leading-relaxed text-gray-300 mb-4">
@@ -146,14 +137,8 @@
                 <!-- Technologies -->
                 <div
                     class="shadow-lg bg-gray-800 rounded-2xl border border-gray-700 p-6 hover:scale-105 transform transition">
-                    <h4 class="font-semibold text-xl mb-4 text-indigo-300">💻 TECHNOLOGIES</h4>
+                    <h4 class="font-semibold text-xl mb-4 text-indigo-300">💻 FRONTEND TECHNOLOGIES</h4>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                        <div
-                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            ASP.NET MVC</div>
-                        <div
-                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            C#.NET</div>
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
                             HTML</div>
@@ -162,16 +147,16 @@
                             CSS</div>
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
+                            Tailwind-CSS</div>
+
+                        <div
+                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
                             JavaSrcipt</div>
+
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            Bootstrap</div>
-                        <div
-                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            Entity Framework</div>
-                        <div
-                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            Python</div>
+                            React</div>
+
                     </div>
 
                 </div>
@@ -185,37 +170,66 @@
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
                             MSSQL Server</div>
+                        <div
+                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
+                            Database Design</div>
+                        <div
+                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
+                            SQL Queries</div>
+                    </div>
+                </div>
+
+                <!-- Cloud -->
+                <div
+                    class="shadow-lg bg-gray-800 rounded-2xl border border-gray-700 p-6 hover:scale-105 transform transition">
+                    <h4 class="font-semibold text-xl mb-4 text-indigo-300">☁️ CLOUD & PLATFORMS</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div
+                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
+                            AWS (EC2, S3, Lambda)</div>
+                        <div
+                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
+                            ServiceNow (ITSM)</div>
+                    </div>
+                </div>
+
+                <!-- Productivity -->
+                <div
+                    class="shadow-lg bg-gray-800 rounded-2xl border border-gray-700 p-6 hover:scale-105 transform transition">
+                    <h4 class="font-semibold text-xl mb-4 text-indigo-300">🛠️ PRODUCTIVITY</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div
+                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
+                            Microsoft Teams</div>
+                        <div
+                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
+                            OutLook</div>
                     </div>
                 </div>
 
                 <!-- Tools -->
                 <div
                     class="shadow-lg bg-gray-800 rounded-2xl border border-gray-700 p-6 hover:scale-105 transform transition">
-                    <h4 class="font-semibold text-xl mb-4 text-indigo-300">🛠️ TOOLS</h4>
+                    <h4 class="font-semibold text-xl mb-4 text-indigo-300">🛠️ VERSION CONTROL & DEVLOPMENT TOOLS</h4>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            ServiceNow</div>
+                            Git </div>
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            AWS</div>
+                            GitHub</div>
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            VS Code</div>
+                            Visual Studio Code</div>
                         <div
                             class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            VS 2019–2022</div>
+                            Visual Studio 2019-2022</div>
 
-                        <div
-                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            Teams</div>
-                        <div
-                            class="bg-gray-700 text-gray-200 p-2 rounded-lg text-center hover:bg-indigo-500 hover:text-white transition">
-                            Outlook</div>
                     </div>
                 </div>
 
-                <!-- AI & Automation -->
+
+
                 <!-- AI & Automation -->
                 <div
                     class="shadow-lg bg-gray-800 rounded-2xl border border-gray-700 p-6 hover:scale-105 transform transition">
@@ -235,8 +249,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -254,12 +266,12 @@
                 <p class="text-sm text-gray-400 mb-4">April 2023 - July 2023</p>
 
                 <div class="space-y-3 text-base text-gray-400 leading-relaxed">
-                    <p>✔ Designed and developed user-friendly web interfaces with enhanced usability.</p>
-                    <p>✔ Wrote, debugged, and optimized code to improve application performance.</p>
-                    <p>✔ Identified and resolved issues to ensure seamless website functionality.</p>
-                    <p>✔ Followed coding best practices to maintain clean and scalable code.</p>
-                    <p>✔ Conducted thorough testing of web applications and fixed performance issues.</p>
-                    <p>✔ Maintained comprehensive documentation of tasks and solutions.</p>
+                    <p>✓ Designed and developed user-friendly web interfaces with enhanced usability.</p>
+                    <p>✓ Wrote, debugged, and optimized code to improve application performance.</p>
+                    <p>✓ Identified and resolved issues to ensure seamless website functionality.</p>
+                    <p>✓ Followed coding best practices to maintain clean and scalable code.</p>
+                    <p>✓ Conducted thorough testing of web applications and fixed performance issues.</p>
+                    <p>✓ Maintained comprehensive documentation of tasks and solutions.</p>
                 </div>
             </div>
 
@@ -270,13 +282,18 @@
                 <p class="text-base text-gray-400 mb-4">Desktop application to manage blood collection, stock, and
                     requests efficiently with comprehensive tracking capabilities.</p>
 
+                    <div class="mb-4 text-sm text-gray-300">
+        <p><span class="text-indigo-400">Project Size:</span> Team of 4</p>
+        <p><span class="text-indigo-400">My Role:</span> UI Design & Bug Fixes</p>
+    </div>
+
                 <h5 class="font-semibold text-indigo-300 mb-3">Key Responsibilities:</h5>
                 <div class="space-y-3 text-base text-gray-400 leading-relaxed">
-                    <p>✔ Designed user-friendly interfaces using Windows Forms</p>
-                    <p>✔ Diagnosed and fixed system bugs for optimal functionality</p>
-                    <p>✔ Conducted interface testing to enhance user experience</p>
-                    <p>✔ Performed unit testing and troubleshooting</p>
-                    <p>✔ Documented system updates and changes</p>
+                    <p>✓ Designed user-friendly interfaces using Windows Forms</p>
+                    <p>✓ Diagnosed and fixed system bugs for optimal functionality</p>
+                    <p>✓ Conducted interface testing to enhance user experience</p>
+                    <p>✓ Performed unit testing and troubleshooting</p>
+                    <p>✓ Documented system updates and changes</p>
                 </div>
 
                 <p class="mt-4 text-sm text-indigo-300 font-semibold">Tech Stack: C#.NET, Windows Forms, Entity
@@ -292,12 +309,12 @@
 
                 <h5 class="font-semibold text-indigo-300 mb-3">Key Responsibilities:</h5>
                 <div class="space-y-3 text-base text-gray-400 leading-relaxed">
-                    <p>✔ Implemented code for gym member, product, and equipment management</p>
-                    <p>✔ Designed seamless user interfaces using Windows Forms</p>
-                    <p>✔ Resolved technical issues and system failures</p>
-                    <p>✔ Wrote clean and efficient code following best practices</p>
-                    <p>✔ Conducted unit testing and debugging for optimization</p>
-                    <p>✔ Created comprehensive documentation and reports</p>
+                    <p>✓ Implemented code for gym member, product, and equipment management</p>
+                    <p>✓ Designed seamless user interfaces using Windows Forms</p>
+                    <p>✓ Resolved technical issues and system failures</p>
+                    <p>✓ Wrote clean and efficient code following best practices</p>
+                    <p>✓ Conducted unit testing and debugging for optimization</p>
+                    <p>✓ Created comprehensive documentation and reports</p>
                 </div>
 
                 <p class="mt-4 text-sm text-indigo-300 font-semibold">Tech Stack: C#.NET, Windows Forms, Entity
@@ -403,7 +420,7 @@
     <section id="contact" class="py-20 px-6 bg-gray-900">
         <div class="max-w-6xl mx-auto text-center">
             <h3 class="text-3xl font-bold mb-8 text-indigo-400">CONTACTS</h3>
-            <p class="mb-8 text-lg text-gray-300">Let’s connect! You can reach me through the following:</p>
+            <p class="mb-8 text-lg text-gray-300">Let's connect! You can reach me through the following:</p>
             <div class="flex justify-center gap-8 text-3xl">
 
                 <!-- Gmail -->
@@ -430,34 +447,14 @@
         </div>
     </section>
 
-    <script>
-        const phoneToggle = document.getElementById('phoneToggle');
-        const phoneNumber = document.getElementById('phoneNumber');
-
-        phoneToggle.addEventListener('click', () => {
-            phoneNumber.classList.toggle('hidden');
-        });
-    </script>
-
 
     <!-- Footer -->
     <footer class="text-center py-6 bg-gray-800 border-t border-gray-700">
         <p class="text-gray-500">© 2025 Rohit Patil. All rights reserved.</p>
     </footer>
 
-    <script>
-        // Smooth fade-in animation for elements
-        document.addEventListener("DOMContentLoaded", () => {
-            const elements = document.querySelectorAll(".animate-fade-in");
-            elements.forEach((el, index) => {
-                setTimeout(() => {
-                    el.style.opacity = 1;
-                    el.style.transform = "translateY(0)";
-                    el.style.transition = "opacity 1s ease, transform 1s ease";
-                }, index * 300);
-            });
-        });
-    </script>
+    <!-- External JavaScript File -->
+    <script src="script.js"></script>
 
 </body>
 
